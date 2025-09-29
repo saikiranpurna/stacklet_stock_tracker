@@ -25,7 +25,7 @@ const UserDropdown = () => {
       <DropdownMenuTrigger asChild>
         <Button
           variant="ghost"
-          className="flex items-center gap-3 text-gray-4 hover:text-yellow-500"
+          className="flex items-center gap-3 text-gray-400 hover:text-yellow-500"
         >
           <Avatar className="w-8 h-8">
             <AvatarImage src="https://www.mrpurnatech.in/assets/img/logo/PS-logo.svg" />
