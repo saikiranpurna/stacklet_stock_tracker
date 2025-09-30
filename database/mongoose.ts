@@ -34,4 +34,5 @@ export const connectToDatabase = async () => {
     throw new Error("Failed to connect to MongoDB");
   }
   console.log(`Connected to MongoDB: ${cached.conn.connection.host}`);
+  return cached.conn;
 };
